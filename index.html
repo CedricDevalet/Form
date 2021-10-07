@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>   
+    <script src="js/main.js"></script>
+    <title>Contact-Form</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="divider"></div>
+        <div class="heading">
+            <h2>Contact</h2>
+        </div>
+        <div class="row">
+
+            <div class="col">
+            </div>
+
+            <div class="col-lg-10 col-lf-offset-1">
+                <form id="contact-form" action="" method="post" role="form">
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <label for="firstname">Prénom <span class="blue">*</span></label>
+                            <input type="text" name="firstname" class="form-control" placeholder="Entrez votre prénom ...">
+                            <p class="comments">Message d'erreur</p>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="name">Nom <span class="blue">*</span></label>
+                            <input type="text" name="name" class="form-control" placeholder="Entrez votre nom ...">
+                            <p class="comments">Message d'erreur</p>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="email">Email <span class="blue">*</span></label>
+                            <input type="text" name="email" class="form-control" placeholder="Entrez votre adresse mail ...">
+                            <p class="comments">Message d'erreur</p>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="phone">Numéro de téléphone</label>
+                            <input type="text" name="phone" class="form-control" placeholder="Entrez votre numéro de téléphone ...">
+                            <p class="comments">Message d'erreur</p>
+                        </div>
+
+                        <div class="col-md-12">
+                            <label for="message">Message <span class="blue">*</span></label>
+                            <textarea type="text" name="message" class="form-control" placeholder="Transmettez votre demande ..."></textarea>
+                            <p class="comments">Message d'erreur</p>
+                        </div>
+
+                        <div class="col-md-12">
+                            <p class="blue"><strong>* Ces informations sont requises</strong></p>
+                        </div>
+
+                        <div class="col-md-12">
+                            <input type="submit" class="button1" value="Envoyer">
+                        </div>
+                        
+                    </div>
+
+                    <p class="thanks">Votre Message à bien été envoyer. Vous serez contactez dans les plus bref délais.</p>
+                </form>
+            </div>
+
+            <div class="col">
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>
